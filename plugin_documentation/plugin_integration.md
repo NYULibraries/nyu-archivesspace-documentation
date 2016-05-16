@@ -8,9 +8,10 @@ Currently, the workflow is as follows:
   AppConfig[:plugins] = ['nyu_marcxml_export_plugin']
   plugin_version:0.1.0
   ```
+
   * The string in AppConfig[:plugins] is the name of the plugin. It should probably be the name of the repository
   * The plugin version should follow [semantic versioning practices](http://semver.org/).
 
 2. The plugin_info.txt file should be at the root of the repository.
 
-The process of integrating plugins into the ArchivesSpace source code and compiling it is then done using puppet and Jenkins. Further documentation on that is upcoming.
+The process of integrating plugins into the ArchivesSpace source code and compiling is then done using puppet and Jenkins. Further documentation on that is upcoming.
