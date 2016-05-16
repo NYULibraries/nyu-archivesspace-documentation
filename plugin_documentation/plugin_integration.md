@@ -1,4 +1,4 @@
-# Plugin Documentation for Archives Space
+# Plugin Integration into source code for Archives Space
 This documentation is about the current NYU workflow to add plugins to the ArchivesSpace source code.
 
 Currently, the workflow is as follows:
