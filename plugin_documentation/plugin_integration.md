@@ -4,7 +4,7 @@ This documentation is about the current NYU workflow to add plugins to the Archi
 Currently, the workflow is as follows:
 
 1. The developer creates a plugin repository
-  * The developer adds a file called plugin_info.txt. Here is an [example](https://github.com/NYULibraries/nyu_marcxml_export_plugin/blob/master/plugin_info.txt) from the [nyu_marcxml_export_plugin repository](https://github.com/NYULibraries/nyu_marcxml_export_plugin/blob/master)
+  * The developer adds a file called plugin_info.txt. Here is an [example](https://github.com/NYULibraries/nyu_marcxml_export_plugin/blob/master/plugin_info.txt) from the [nyu_marcxml_export_plugin repository](https://github.com/NYULibraries/nyu_marcxml_export_plugin)
   ```
   AppConfig[:plugins] = ['nyu_marcxml_export_plugin']
   plugin_version:0.1.0
